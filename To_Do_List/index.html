@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>To Do List</title>
+    <!-- Adding External CSS -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Adding Bootstrap link -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Layout of the To Do List -->
+    <div class="layout">
+        <!-- title of the to do list -->
+        <h1 class="title"><i class="bi bi-list-task"></i> To Do List</h1>
+        <div id="newtask">
+            <input type="text" class="textBox" placeholder="Type your to do list...">
+            <button type="submit" id="push" class="btn text-white text-center">
+                ADD
+                <i class="bi bi-plus"></i>
+            </button>
+        </div>
+        <div id="tasks"></div> 
+    </div>
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+
+</body>
+</html>
